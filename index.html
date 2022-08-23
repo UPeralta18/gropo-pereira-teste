@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+    <link rel="icon" href="images/icons/star.svg" />
+</head>
+
+<body>
+    <main id="main">
+        <legend class="title">
+            <h1>Get An Advice</h1>
+        </legend>
+        <div id="search-advice">
+            <button onclick="getData()" id="new-random-advice" value="Random Advice">Random Advice</button>
+            <input type="text" id="search-box" name="search-box" placeholder="Search For an Advice" />
+            <div class="buttons">
+                <button onclick="getSearchResult()" id="search-button" value="Search For An Advice">Search</button>
+                <button onclick="getLucky()" id="get-lucky-advice" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
+            </div>
+        </div>
+        <div class="advice" id="advice-result"></div>
+    </main>
+</body>
+
+</html>
